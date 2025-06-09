@@ -13,7 +13,7 @@ CONFIG = {
         "大正製薬": "https://www.google.com/alerts/feeds/16026360528624384949/16372116154633207855"
     },
     "gemini_api_key": os.environ.get("GEMINI_API_KEY", "AIzaSyCOzY-MxzAjOpTN0DfzOlysnwyVfl7oLnY"),
-    "output_file": "index.html"  # GitHub Pagesのため
+    "output_file": "index.html"  # GitHub Pagesのため変更
 }
 
 def get_daily_quote():
