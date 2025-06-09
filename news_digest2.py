@@ -12,8 +12,8 @@ CONFIG = {
         "LINEヤフー": "https://www.google.com/alerts/feeds/16026360528624384949/7803140798119325522",
         "大正製薬": "https://www.google.com/alerts/feeds/16026360528624384949/16372116154633207855"
     },
-    "gemini_api_key": "AIzaSyCOzY-MxzAjOpTN0DfzOlysnwyVfl7oLnY",
-    "output_file": "news_digest.html"
+    "gemini_api_key": os.environ.get("GEMINI_API_KEY", "AIzaSyCOzY-MxzAjOpTN0DfzOlysnwyVfl7oLnY"),
+    "output_file": "index.html"  # GitHub Pagesのため
 }
 
 def get_daily_quote():
